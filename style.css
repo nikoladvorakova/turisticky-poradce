@@ -4,11 +4,11 @@
 
 h1 {
     text-align: center
-    }
+}
 
-    h2 {
-        text-align: center
-        }
+h2 {
+    text-align: center
+}
     
 
 img { 
@@ -30,6 +30,14 @@ p.solid {
     width:60px
 }
 
+.img-menu {
+    width:250px
+}
+
+.img-index {
+    display:block; margin:0 auto 0 auto; width:100px
+}
+
 .box{
     position: relative;
     display: inline-block; /* Make the width of box same as image */
@@ -43,6 +51,11 @@ p.solid {
     top: 40%; 
     text-align: center;
     width: 60%;
+}
+
+.hh {
+    font-family: 'Handlee', cursive;
+    font-size: x-large;
 }
 
 #head {
