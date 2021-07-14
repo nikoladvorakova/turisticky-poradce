@@ -62,6 +62,18 @@ p.solid {
     justify-content: center
 }
 
+.mission {
+    background-color: black;
+    color:white;
+    text-align: center;
+  }
+
+  .banner {
+    height: 26rem;
+    background: #223c88 url('image/hory.jpg') center/cover no-repeat;
+    color:white;
+  }
+
 #head {
     display: flex;
     width:100%;
