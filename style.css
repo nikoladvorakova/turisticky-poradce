@@ -70,8 +70,14 @@ p.solid {
 
   .banner {
     height: 26rem;
-    background: #223c88 url('image/hory.jpg') center/cover no-repeat;
+    background: #223c88 url('image/less.jpg') center/cover no-repeat;
     color:white;
+  }
+
+  .container {
+      position:relative;
+      text-align: center;
+      color: white;
   }
 
 #head {
