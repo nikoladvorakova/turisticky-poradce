@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <head>
 
@@ -19,28 +20,11 @@
             <div class="menuitem"><a href="index.html">home</a></div>
             <div class="menuitem"><a href="pisek.html">Písek</a></div>
             <div class="menuitem"><a href="karlovyvary.html">Karlovy Vary</a></div>
-            <div class="menuitem"><a href="">Mikulov</a></div>
+            <div class="menuitem"><a href="mikulov.html">Mikulov</a></div>
             <div class="menuitem"><a href="kontakt.html">o nás</a></div>
         </div>
-    
     </div>
-
-
-
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-
-
-
-
-
-
+    
 
     <h2>O NÁS</h2>
 
@@ -61,20 +45,72 @@
             <br>
 <h2>KONTAKTUJTE NÁS</h2>
 <br>
-    <!-- Form -->
-    <div class="form-center" class="flex-1">
-        <form action="">
-            <input type="email" name="from" id="" placeholder="Your email"
-                class=" p-1 border-2 border-black bg-gray-custom focus:bg-white transition-colors transition duration-200 w-full">
-            <br><br>
-            <textarea name="message" id="" placeholder="Message"
-                class=" p-1 border-2 border-black bg-gray-custom focus:bg-white transition-colors transition duration-200 w-full h-24"></textarea>
-            <input type="submit" name="send" value="Send" class="text-gray-custom p-1 float-right cursor-pointer">
-        </form>
+<form class="row g-3 needs-validation" novalidate>
+    <div class="col-md-4">
+      <label for="validationCustom01" class="form-label">Jméno</label>
+      <input type="text" class="form-control" id="validationCustom01" value="" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
     </div>
-</div>
-<br>
-</div>
+    <div class="col-md-4">
+      <label for="validationCustom02" class="form-label">Příjmení</label>
+      <input type="text" class="form-control" id="validationCustom02" value="" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustomUsername" class="form-label">email</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please choose a username.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustom03" class="form-label">komentář</label>
+      <input type="text" class="form-control" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom04" class="form-label">pohlaví</label>
+      <select class="form-select" id="validationCustom04" required>
+        <option selected disabled value="">Choose...</option>
+        <option>žena</option>
+        <option>muž</option>
+        <option>non-binary</option>
+      </select>
+      <div class="invalid-feedback">
+        Please select a valid state.
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom05" class="form-label">komentář</label>
+      <input type="text" class="form-control" id="validationCustom05" required>
+      <div class="invalid-feedback">
+        Please provide a valid zip.
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+          Agree to terms and conditions
+        </label>
+        <div class="invalid-feedback">
+          You must agree before submitting.
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+  </form>
 </div>
 </section>
 </div>
