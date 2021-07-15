@@ -23,8 +23,10 @@ table {
 }
 
 p.solid {
-    border-style:solid;
+    border: 1px solid;
+    padding: 20px;
 }
+
 
 table.solid {
     border-style:solid;
@@ -79,8 +81,8 @@ table.solid {
 }
 
 .mission {
-    background-color: black;
-    color:white;
+    background-color: rgba(0, 0, 0, 0.2) ;
+    color:black;
     text-align: center;
   }
 
