@@ -26,15 +26,15 @@ p.solid {
     border-style:solid;
 }
 
-h3.solid {
+table.solid {
     border-style:solid;
     margin-right: 940px;
     padding-top: 2px;
     padding-bottom: 10px;
     padding-left: 5px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
     border-color: white;
-    border-radius: 40%;
+    border-radius: 0%;
 }
 
 .img-table {
