@@ -130,7 +130,12 @@ h3.solid {
 
 
 .img-lazne {
-    border-radius: 20%;
+    float:right;
+    display: block;
+    width: 250px;
+}
+
+.img-lazne2 {
     float:right;
     display: block;
     width: 150px;
@@ -138,6 +143,14 @@ h3.solid {
 
 .img-restaurace {
     margin:10px;
+}
+
+.map-centered {
+    margin-left: 200px;
+}
+
+.text-centered {
+    margin-left: 200px;
 }
 
 .telo {
