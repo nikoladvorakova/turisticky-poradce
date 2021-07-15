@@ -74,11 +74,24 @@ p.solid {
     color:white;
   }
 
-  .container {
-      position:relative;
-      text-align: center;
-      color: white;
+  .banner2 {
+    height: 26rem;
+    background: #223c88 url('image/kvmesto.jpg') center/cover no-repeat;
+    color:white;
   }
+
+.img-lazne {
+    border-radius: 100%;
+    position:right;
+}
+
+.img-restaurace {
+    margin:10px;
+}
+
+.telo {
+    margin:20px;
+}
 
 #head {
     display: flex;
