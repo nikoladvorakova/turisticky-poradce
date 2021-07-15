@@ -175,6 +175,13 @@ h3.solid {
     height: 200px;
 }
 
+.img-pisek {
+    float:right;
+    display: block;
+    width: 250px;
+}
+
+
 #head {
     display: flex;
     width:100%;
