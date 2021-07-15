@@ -179,6 +179,7 @@ table.solid {
     float:right;
     display: block;
     width: 250px;
+    margin-left: 5px;
 }
 
 
