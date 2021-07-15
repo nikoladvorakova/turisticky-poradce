@@ -87,6 +87,8 @@ table.solid {
 
   .text-s-pozadim {
     background-color: rgba(0, 0, 0, 0.6);
+    margin-right:400px ;
+    margin-left: 400px ;
   }
 
   .banner {
@@ -211,7 +213,6 @@ table.solid {
     padding: 10px 10px 10px 10px;
     height:50px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.6);
     white-space: nowrap;
 }
 
