@@ -97,7 +97,7 @@ table.solid {
 
   .banner2 {
     height: 26rem;
-    background: #223c88 url('image/kvmesto.jpg') center/cover no-repeat;
+    background: #223c88 url('image/Karlovy-Vary.jpg.webp') center/cover no-repeat;
     color:white;
   }
 
@@ -109,7 +109,13 @@ table.solid {
 
   .banner4 {
     height: 26rem;
-    background: #223c88 url('image/mikulovmesto.jpg') center/cover no-repeat;
+    background: #223c88 url('image/mikulov\ u.jpg') center/cover no-repeat;
+    color:white;
+  }
+
+  .banner5 {
+    height: 26rem;
+    background: #223c88 url('image/les.jpeg') center/cover no-repeat;
     color:white;
   }
 
